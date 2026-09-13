@@ -2,61 +2,62 @@
 
 ## OIBSIP Data Analytics Internship – Task 1
 
-### Project Overview
+## Project Overview
 
 This project performs Exploratory Data Analysis (EDA) on a retail sales dataset.
 
-The main aim is to understand sales patterns, customer information, product categories, and identify useful trends from the available data.
+The main objective is to understand sales patterns, customer information, product category performance, and useful trends from the available data.
 
-### Dataset
+## Dataset Information
 
-The dataset contains retail transaction information such as:
+The dataset contains **1,000 retail transactions** and includes the following columns:
 
-- Transaction ID
-- Date
-- Customer ID
-- Gender
-- Age
-- Product Category
-- Quantity
-- Price per Unit
-- Total Amount
+* Transaction ID
+* Date
+* Customer ID
+* Gender
+* Age
+* Product Category
+* Quantity
+* Price per Unit
+* Total Amount
 
-### Analysis Performed
+## Analysis Performed
 
-The project includes:
+1. Loaded and understood the dataset
+2. Checked the dataset shape and structure
+3. Checked missing values and duplicate records
+4. Performed basic data cleaning
+5. Generated descriptive statistics
+6. Analyzed monthly sales
+7. Analyzed quarterly sales
+8. Analyzed sales by age group
+9. Analyzed gender-wise sales
+10. Analyzed product category sales
+11. Checked correlation between numerical variables
+12. Created data visualizations
 
-1. Loading and understanding the dataset
-2. Checking the shape and structure of the data
-3. Checking missing values and duplicate records
-4. Basic data cleaning
-5. Descriptive statistical analysis
-6. Monthly sales analysis
-7. Quarterly sales analysis
-8. Age group analysis
-9. Gender-wise analysis
-10. Product category sales analysis
-11. Correlation analysis
-12. Data visualization
+## Tools and Technologies
 
-### Tools and Technologies
+* Python
+* Pandas
+* NumPy
+* Matplotlib
+* Seaborn
+* Jupyter Notebook
 
-- Python
-- Pandas
-- Matplotlib
-- Seaborn
-- Jupyter Notebook
+## Project Files
 
-### Project Files
+* `AdityaPanchal_Task1_RetailSalesEDA.ipynb` – Jupyter Notebook containing the analysis
+* `data/retail_sales_dataset.csv` – Retail sales dataset
 
-- `AdityaPanchal_Task1_RetailSalesEDA.ipynb` – Jupyter Notebook containing the complete analysis
-- `retail_sales_dataset.csv` – Dataset used for the analysis
+## Project Outcome
 
-### Key Objective
+This project provides an understanding of retail sales behaviour through data cleaning, statistical analysis, trend analysis, and visualizations.
 
-The objective of this project is to use basic data analytics techniques to find meaningful patterns and insights from retail sales data.
+The analysis helps identify sales patterns, customer characteristics, and product category performance.
 
-### Author
+## Author
 
 **Aditya Dhanraj Panchal**
 
