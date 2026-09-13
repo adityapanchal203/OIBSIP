@@ -2,59 +2,62 @@
 
 ## OIBSIP Data Analytics Internship – Task 3
 
-### Project Overview
+## Project Overview
 
 This project focuses on cleaning and preprocessing a retail transaction dataset.
 
-The dataset contains missing values, duplicate records, and some inconsistent information. The purpose of this project is to clean the data and prepare it for further analysis.
+The dataset contains missing values, blank records, inconsistent category values, and an unnecessary duplicate product column. The purpose of this project is to prepare the data for further analysis.
 
-### Project Objective
-
-The main objectives are:
+## Project Objective
 
 - Inspect the raw dataset
 - Identify missing values
-- Identify duplicate records
+- Check duplicate records
 - Handle missing numerical values
 - Handle missing categorical values
 - Standardize category values
-- Remove duplicate records
+- Remove unnecessary duplicate columns
+- Check possible outliers
 - Create a cleaned dataset
-- Compare the raw and cleaned data
+- Compare raw and cleaned data
 
-### Data Cleaning Steps
+## Data Cleaning Steps
 
-The project includes the following steps:
+1. Loaded the raw transaction dataset
+2. Checked the dataset structure
+3. Removed fully blank rows
+4. Checked missing values
+5. Checked duplicate rows
+6. Removed the unnecessary duplicate product column
+7. Handled missing numerical values
+8. Handled missing categorical values
+9. Standardized categorical values
+10. Treated phone numbers as text
+11. Checked possible outliers
+12. Saved the cleaned dataset as a CSV file
 
-1. Load the raw transaction data
-2. Check the dataset structure
-3. Check missing values
-4. Check duplicate records
-5. Handle missing values
-6. Standardize categorical data
-7. Remove duplicate records
-8. Check the cleaned dataset
-9. Save the cleaned dataset as a CSV file
-
-### Tools Used
+## Tools and Technologies
 
 - Python
 - Pandas
+- NumPy
 - Matplotlib
 - Seaborn
 - Jupyter Notebook
 
-### Project Files
+## Project Files
 
-- `AdityaPanchal_Task3_CleaningData.ipynb` – Jupyter Notebook containing the data cleaning process
-- `retail_sales_transactions_raw.csv` – Original transaction dataset
-- `retail_sales_transactions_cleaned.csv` – Cleaned dataset
+- `AdityaPanchal_Task3_CleaningData.ipynb` – Jupyter Notebook containing the cleaning process
+- `data/retail_sales_transactions_raw.csv` – Original raw dataset
+- `data/retail_sales_transactions_cleaned.csv` – Cleaned dataset
 
-### Project Outcome
+## Project Outcome
 
-The final cleaned dataset is prepared for further data analysis and can be used for tasks such as customer analysis, sales analysis, and visualization.
+The final dataset is more consistent and suitable for further data analysis and customer segmentation.
 
-### Author
+This project demonstrates the importance of data cleaning and preprocessing before performing data analysis.
+
+## Author
 
 **Aditya Dhanraj Panchal**
 
